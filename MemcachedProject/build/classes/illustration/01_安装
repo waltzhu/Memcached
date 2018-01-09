@@ -1,0 +1,9 @@
+1.memcache 官网只有Linux版本，windows版本需要在Linux上编译，下载编译后版本安装使用。
+2.安装步骤：
+  2.1进入到解压缩的目录中，CMD执行 memcached.exe -indtall
+  2.2启动服务 注：1.5版本后可能不支持以服务启动
+  2.3本机使用，先开通系统TELNET功能，然后运行CMD，telnet localhost 11211,打开黑屏界面，输入stats，回车，然后就可以输入memcached的命令了。
+  
+ 3.java集成
+   下载jar：commons-pool-1.6.jar   java_memcached-release_2.6.6.jar  slf4j-api-1.7.25.jar  slf4j-simple-1.7.25.jar
+   
